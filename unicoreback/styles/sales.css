@@ -1,0 +1,126 @@
+/*sales*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.sales {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.title-sales {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.title-sales a > .fa-solid{
+  font-size: 0.7rem;
+}
+
+.container-sales {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.2rem;
+  align-content: center;
+  margin-block: 0.5rem;
+  border-bottom: 2px solid lightgray;
+}
+
+.container-sales h4 {
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 0.5rem;
+}
+
+.container-sales :nth-last-child(1) {
+  background-color: darkgray;
+  border: 1px solid lightgray;
+  padding: 0.5rem;
+}
+
+.content-sales {
+  display: flex;
+  gap: 6rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.new-sales button{
+  border: none;
+  background: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.content-sales > .new-sales {  
+  border: none ;
+  text-decoration: none;
+  background-color: limegreen;
+  color: white;
+  height: fit-content;
+  padding: 0.5rem;
+  width: 12rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.content-sales > .budget {
+  background-color: blue;
+  color: white;
+  height: fit-content;
+  padding: 0.5rem;
+  width: 12rem;
+  text-align: center;
+  border-radius: 0.5rem;;
+}
+
+.content-sales > .actions {
+  height: fit-content;
+  padding: 0.5rem;
+}
+
+.content-sales > .calendar {
+  height: fit-content;
+  padding: 0.5rem;
+}
+
+.content-sales > .search {
+  padding: 0.5rem;
+}
+
+.content-sales > .search > input {
+  padding: 0.2rem;
+}
+.content-sales button {
+  display: inline-block;
+  background-color: lightgrey;
+  margin: auto;
+  width: 2rem;
+}
+
+.table-sales {
+  border: 1px solid lightgray;
+  display: flex;
+  gap: 8rem;
+  margin-block: 2rem;
+  margin-inline: auto;
+}
+
+.table-sales .table-title {
+  border-right: 1px solid lightgray;
+  text-align: center;
+  padding: 1rem;
+}
+
+.table-sales span {
+  font-weight: 700;
+}
+
+.table-sales .value {
+  font-size: 1.5rem;
+}
